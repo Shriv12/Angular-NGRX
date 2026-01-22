@@ -11,6 +11,7 @@
     padding: 4px 10px;
     text-align: right;
     background-color: #76008e;
+    width: 100%;
 }
 .toggle-btn{
     background: transparent;

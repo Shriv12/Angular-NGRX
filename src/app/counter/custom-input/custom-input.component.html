@@ -1,7 +1,7 @@
 <div class="app-custom-value">
-    <div class="toggle-btn-container">
-        <button class="toggle-btn" (click)="toggleClicked()">{{ (showCustomValue$ | async) ? '-' : "+" }}</button>
-    </div>
+    <button class="toggle-btn-container" (click)="toggleClicked()">
+        <span class="toggle-btn" >{{ (showCustomValue$ | async) ? '-' : "+" }}</span>
+    </button>
 
     <div class="custom-input-container" *ngIf = "(showCustomValue$ | async)">
         <input type="text" [(ngModel)] = "customValue">

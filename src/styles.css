@@ -10,3 +10,6 @@ body{
     font-family: "Roboto", sans-serif;
     background-color: #f2f3f4;
 }
+button{
+    cursor: pointer;
+}
